@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>HealthCare</h2>
+      <nav>
+        <a href="#">Dashboard</a>
+        <a href="#">Appointments</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>Dashboard</h1>
+        <input type="search" placeholder="Search..." />
+      </header>
+
+      <section class="health-stats">
+        <div class="card">Bones: 75%</div>
+        <div class="card">Teeth: 90%</div>
+        <div class="card">Lungs: 60%</div>
+      </section>
+
+      <section class="body-view">
+        <img src="https://i.ibb.co/KD3SkWx/body-anatomy.png" alt="Body Diagram" />
+        <button class="checkup-btn">Start Checkup</button>
+      </section>
+
+      <section class="appointments">
+        <h3>Upcoming Schedule</h3>
+        <ul>
+          <li>Cardiologist - 10:30 AM</li>
+          <li>Neurologist - 11:00 AM</li>
+          <li>Orthodontist - 1:00 PM</li>
+          <li>Physiotherapy - 3:00 PM</li>
+        </ul>
+      </section>
+
+      <section class="calendar">
+        <h3>October 2021</h3>
+        <div class="calendar-grid">
+          <!-- Add dates here -->
+          <div>25</div><div>26</div><div>27</div>...
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
